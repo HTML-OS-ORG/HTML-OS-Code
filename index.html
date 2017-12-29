@@ -1,6 +1,6 @@
 <html>
 <head>
-<body>
+<body onload="Start()">
 <title>HTML-OS</title>
 <link rel="stylesheet" href="styles.css">
 <center>
@@ -17,6 +17,128 @@
   <button onclick= "SetPIN(7)">7</button><button onclick= "SetPIN(8)">8</button><button onclick= "SetPIN(9)">9</button>
   <br>
   <button onclick= "SetPIN(0)">0</button>
+  <script>
+    //The function for the <body> tag
+    function Start() {
+    var keypadDigit = 1;
+    var kaypadDigit1 = null;
+    var kaypadDigit2 = null;
+    var kaypadDigit3 = null;
+    var kaypadDigit4 = null;
+    }
+    function SetPIN(value) {
+      //The part that detects that you are done entering the PIN
+      if (keypadDigit = 5) {
+        TestCompletedPIN();
+      } else {
+        //The part that stores your input into temp memory to be tested against the real PIN
+        if (value == 0) {
+          //First, starting with 0
+      if (kaypadDigit == 1) {
+        kaypadDigit1 == "0";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "0";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "0";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "0";
+      }
+          //Next, for 1
+        } else if (value == 1) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "1";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "1";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "1";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "1";
+        //Next, for 2
+      } else if (value == 2) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "2";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "2";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "2";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "2";
+        //Next, for 3
+      } else if (value == 3) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "3";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "3";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "3";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "3";
+        //Next, for 4
+      } else if (value == 4) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "4";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "4";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "4";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "4";
+        //Next, for 5
+      } else if (value == 5) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "5";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "5";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "5";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "5";
+        //Next, for 6
+      } else if (value == 6) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "6";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "6";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "6";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "6";
+        //Next, for 7
+      } else if (value == 7) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "7";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "7";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "7";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "7";
+        //Next, for 8. -Whew-
+      } else if (value == 8) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "8";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "8";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "8";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "8";
+        //finnally, 9
+      } else if (value == 9) {
+            if (kaypadDigit == 1) {
+        kaypadDigit1 == "9";
+      } else if (kaypadDigit == 2) {
+        kaypadDigit2 == "9";
+      } else if (kaypadDigit == 3) {
+        kaypadDigit3 == "9";
+      } else if (kaypadDigit == 4) {
+        kaypadDigit4 == "9";
+      }
+      }
+      }
+      }
+        
+        
 </center>
 </body>
 </head>
