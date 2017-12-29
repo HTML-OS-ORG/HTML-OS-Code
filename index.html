@@ -18,6 +18,7 @@
   <br>
   <button onclick= "SetPIN(0)">0</button>
   <script>
+    // The PIN is 1028
     //The function for the <body> tag
     function Start() {
     var keypadDigit = 1;
@@ -25,6 +26,10 @@
     var kaypadDigit2 = null;
     var kaypadDigit3 = null;
     var kaypadDigit4 = null;
+      var completed = null;
+      var PIN = "1028"
+    var halfPIN1 = null;
+      var halfPIN2 = null;
     }
     function SetPIN(value) {
       //The part that detects that you are done entering the PIN
@@ -137,7 +142,19 @@
       }
       }
       }
-        
+        function Redirect() {
+          window.location="minercraft.net"; //This link is for testing purpoese only xD
+        }
+        function TestCompletedPIN() {
+          halfPIN1 = kaypadDigit1 + kaypadDigit2;
+          halfPIN2 = kaypadDigit3 + kaypadDigit4;
+          completed = halfPIN1 + halfPIN2;
+          if (completed == PIN) {
+            Redirect();
+          } else {
+            
+            
+      
         
 </center>
 </body>
